@@ -56,7 +56,7 @@ group :development, :test do
   gem 'faker'
   gem 'pry-rails'
   gem 'rspec-rails'
-  gem 'rubocop', require: false
+  gem 'rubocop', '>= 1.66.0', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
   gem 'rubocop-rspec', require: false
