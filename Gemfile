@@ -33,7 +33,7 @@ gem 'puma', require: false
 gem 'rack'
 gem 'rails'
 gem 'rails_autolink'
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 8.0.0'
 gem 'rotp'
 gem 'rqrcode'
 gem 'ruby-vips'
