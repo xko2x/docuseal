@@ -30,8 +30,8 @@ gem 'pg', require: false
 gem 'premailer-rails'
 gem 'pretender'
 gem 'puma', require: false
-gem 'rack'
-gem 'rails'
+gem 'rack', '>= 3.1.10'
+gem 'rails', '>= 7.2.0'
 gem 'rails_autolink'
 gem 'rails-i18n'
 gem 'rotp'
