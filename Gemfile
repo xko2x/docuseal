@@ -57,9 +57,9 @@ group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'
   gem 'rubocop', require: false
-  gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rspec', require: false
+  gem 'rubocop-performance', '>= 1.24.0', require: false
+  gem 'rubocop-rails', '>= 2.30.0', require: false
+  gem 'rubocop-rspec', '>= 3.5.0', require: false
   gem 'simplecov', require: false
 end
 
